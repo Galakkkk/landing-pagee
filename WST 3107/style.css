@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('yasmine.jpg'); /* Set your background image here */
+    background-size: cover;
+    background-blur: 10px; /* Apply background blur, if supported */
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgba(12, 7, 7, 0.534);
+    font-size: 18px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007acc; /* Change color on hover */
+}
+
+.content-container {
+    background: rgba(0, 0, 0, 0.7); /* Transparent background color */
+    border-radius: 65px;
+    padding: 50px;
+    width: 35%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.content {
+    text-align: justify;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
